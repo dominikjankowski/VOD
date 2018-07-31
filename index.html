@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOD</title>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <![if IE]>
+    <link rel="stylesheet" type="text/css" href="css/all-ie-only.css" />
+    <![endif]>
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+<body>
+    <nav class="main-nav use-flex">
+        <div class="nav-page-logo">
+            <i class="fas fa-film"></i>
+        </div>
+        <div id="hamburger-menu">
+            <a href="#"><i class="fas fa-bars"></i></a>
+        </div>
+
+
+        <ul id="responsive-list" class="nav-list use-flex">
+            <li><a href="#">Seriale</a></li>
+            <li><a href="#">Bajki</a></li>
+            <li><a href="#">Na żywo</a></li>
+            <li class="dropdown"><a href="#">Więcej<i class="fas fa-caret-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="">Komedia</a></li>
+                    <li><a href="">Horror</a></li>
+                    <li><a href="">Familijny</a></li>
+                    <li><a href="">Fabularny</a></li>
+                    <li><a href="">Fantasy</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Pomoc</a></li>
+        </ul>
+
+        <form class="nav-form" action="#">
+            <input type="search" placeholder="Znajdź film">
+        </form>
+        <div class="nav-login">
+            <a href="#">Zaloguj się</a>
+        </div>
+    </nav>
+    <!------------------------------------->
+    <!--    end of navigation-->
+    <!------------------------------------->
+    <section class="movie-content">
+        <video id="videoarea" controls="controls" poster="img/img1.jpg" src="video/movie1.mp4"> 
+        </video>
+        <article class="movie-description-scrap">
+            <h2>Tytuł Filmu</h2>
+            <ul class="use-flex">
+                <li>Rok produkcji</li>
+                <li>Kraj pochodzenia</li>
+                <li>Czas Trwania</li>
+                <li>Od lat</li>
+                <li>Dostępna Jakość</li>
+            </ul>
+            <div class="movie-info">
+                <h3>Gatunek: <span>Komedia</span></h3>
+                <h3>Reżyseria: <span>Jan Kowalski</span></h3>
+                <h3>Obsada: <span>Andrzej Kowalski, Krystyna Kowalska, Błażej Kowalski, Jan Kowalski, Joanna Kowalska </span></h3>
+            </div>
+            <div class="read-more">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nostrum sed quod aspernatur, magnam minima, iure eum non optio, nulla exercitationem blanditiis. Nulla sit, corrupti eum, deserunt aut accusantium enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptatum iste tempora voluptas obcaecati...</p><a href="#full-description">Dowiedz się więcej</a>
+            </div>
+        </article>
+        <div class="look-description"><a href="#full-description">Opis Filmu</a></div>
+    </section>
+    <!------------------------------------->
+    <!--    end of film section -->
+    <!------------------------------------->
+    <section class="movie-slider">
+        <div class="prev">
+            <i class="fas fa-arrow-circle-left"></i>
+        </div>
+        <div class="responsive-slider">
+            <div class="img-and-content" movieurl="video/movie1.mp4" movieposter="img/img1.jpg">
+                <div class="img-container bg-img-style" id="img-1"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+            <div class="img-and-content" movieurl="video/movie2.mp4" movieposter="img/img2.jpg">
+                <div class="img-container bg-img-style" id="img-2"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+            <div class="img-and-content" movieurl="video/movie3.mp4" movieposter="img/img3.jpg">
+                <div class="img-container bg-img-style" id="img-3"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+            <div class="img-and-content" movieurl="video/movie4.mp4" movieposter="img/img4.jpg">
+                <div class="img-container bg-img-style" id="img-4"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+            <div class="img-and-content" movieurl="video/movie5.mp4" movieposter="img/img5.jpg">
+                <div class="img-container bg-img-style" id="img-5"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+            <div class="img-and-content" movieurl="video/movie6.mp4" movieposter="img/img6.jpg">
+                <div class="img-container bg-img-style" id="img-6"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+            <div class="img-and-content" movieurl="video/movie7.mp4" movieposter="img/img7.jpg">
+                <div class="img-container bg-img-style" id="img-7"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+            <div class="img-and-content" movieurl="video/movie8.mp4" movieposter="img/img8.jpg">
+                <div class="img-container bg-img-style" id="img-8"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+            <div class="img-and-content" movieurl="video/movie9.mp4" movieposter="img/img9.jpg">
+                <div class="img-container bg-img-style" id="img-9"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+            <div class="img-and-content" movieurl="video/movie10.mp4" movieposter="img/img10.jpg">
+                <div class="img-container bg-img-style" id="img-10"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+            <div class="img-and-content" movieurl="video/movie11.mp4" movieposter="img/img11.jpg">
+                <div class="img-container bg-img-style" id="img-11"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+            <div class="img-and-content" movieurl="video/movie12.mp4" movieposter="img/img12.jpg">
+                <div class="img-container bg-img-style" id="img-12"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+            <div class="img-and-content" movieurl="video/movie13.mp4" movieposter="img/img13.jpg">
+                <div class="img-container bg-img-style" id="img-13"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+            <div class="img-and-content" movieurl="video/movie14.mp4" movieposter="img/img14.jpg">
+                <div class="img-container bg-img-style" id="img-14"></div>
+                <div class="img-description">
+                    <h5>Gatunek</h5>
+                    <h3>Tytuł Filmu</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="next">
+            <i class="fas fa-arrow-circle-right"></i>
+        </div>
+    </section>
+    <!------------------------------------->
+    <!--    end of film slider section -->
+    <!------------------------------------->
+    <section id="full-description" class="bg-img-style">
+        <div id="movie-poster" class="bg-img-style">
+
+        </div>
+        <article class="movie-description">
+            <h2>Tytuł Filmu</h2>
+
+            <div class="movie-info">
+                <h3>Gatunek: <span>Komedia</span></h3>
+                <h3>Reżyseria: <span>Jan Kowalski</span></h3>
+                <h3>Obsada: <span>Andrzej Kowalski, Krystyna Kowalska, Błażej Kowalski, Jan Kowalski, Joanna Kowalska </span></h3>
+                <h3>Rok produkcji: <span>2018</span> </h3>
+                <h3>Kraj pochodzenia: <span>Polska</span></h3>
+                <h3>Czas Trwania: <span>98min</span></h3>
+                <h3>Od lat: <span> 16</span></h3>
+                <h3>Dostępna Jakość: <span>FHD</span></h3>
+            </div>
+            <div class="read-more">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nostrum sed quod aspernatur, magnam minima, iure eum non optio, nulla exercitationem blanditiis. Nulla sit, corrupti eum, deserunt aut accusantium enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla sit, corrupti eum, deserunt aut accusantium enim. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nostrum sed quod aspernatur, magnam minima, iure eum non optio, nulla exercitationem blanditiis. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nostrum sed quod aspernatur, magnam minima, iure eum non optio, nulla exercitationem blanditiis. Nulla sit, corrupti eum, deserunt aut accusantium enim. Lorem ipsum dolor sit amet, consectetur.</p>
+                <p><span>Dostępny do 31 stycznia 2019</span></p>
+            </div>
+        </article>
+    </section>
+    <!------------------------------------->
+    <!--    end of movie description section -->
+    <!------------------------------------->
+    <footer class="main-footer use-flex ">
+        <ul class="social-media use-flex ">
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-youtube"></i></a></li>
+        </ul>
+        <div class="copyright">
+            <p>&copy; 2018 MyTube.com</p>
+        </div>
+    </footer>
+    <!------------------------------------->
+    <!--    end of footer -->
+    <!------------------------------------->
+    <!----------------------------------------->
+    <!--    script jQuery, slick and js-->
+    <!----------------------------------------->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/slider-script.js"></script>
+    <script src="js/chang-video.js"></script>
+
+
+</body>
+
+</html>

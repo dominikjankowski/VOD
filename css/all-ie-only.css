@@ -1,0 +1,39 @@
+.main-nav {
+    padding: 0 30px;
+    line-height: 60px;
+}
+
+.use-flex {
+    justify-content: space-around;
+}
+
+.nav-form {
+    padding-right: 20px;
+}
+
+/*Edge*/
+
+@supports ( -ms-accelerator:true) {
+    html {
+        overflow: hidden;
+        height: 100%;
+    }
+    body {
+        overflow: auto;
+        height: 100%;
+    }
+}
+
+/*Ie 10/11*/
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    html {
+        overflow: hidden;
+        height: 100%;
+    }
+    body {
+        overflow: auto;
+        height: 100%;
+    }
+}
